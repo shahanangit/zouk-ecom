@@ -1,0 +1,53 @@
+.footer-list li{
+  list-style-type: none;
+}
+.footer-list li a{
+  
+  text-decoration: none;
+  color: white;
+}
+.footer-input::placeholder{
+  color: white !important;
+}
+footer{
+  font-family: Zen Kaku Gothic Antique;
+}
+
+.carousel-inner-btn{
+ color: #0D485D;
+ background-color: white;
+ border-style: solid; 
+ border-width: 0px;
+ padding: 20px 80px 20px 80px;
+
+}
+.carousel-inner-btn:hover{
+  background-color: #0D485D;
+  color: white;
+  border-color: white;
+}
+.carousel-btn{
+  width: 220px !important; 
+  height: 90px !important;
+}
+.carousel-btn:hover{
+  background-color: #0D485D !important;
+}
+
+.inner-border {
+  border: none;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  box-shadow: inset 0px 0px 0px 2px #000;
+}
+
+@media screen and (max-width: 820px){
+.nav-thing {
+  display: none;
+}
+.icon-set{
+  margin-left: 100px;
+}
+.togg-btn {
+}
+}

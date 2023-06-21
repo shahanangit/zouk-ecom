@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- External owl carousel css cdn links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-q0X0+pxP16FwDm3C8x2b7j7n9OkzKpyQMeT5L1fUZ8JZ2LNVqd91N5ZxNEq2vl6KPLMBI4sWZfBvOKygZ0fFMA==" crossorigin="anonymous" />
+
+  </head>
+  <body style="background-color: rgb(252, 247, 243); font-family: Zen Kaku Gothic Antique;">
+    <header>
+      <div class="row bg-white py-3">
+        <div class="col-4">
+          <nav class="navbar navbar-expand-lg">
+
+            <div class="container togg-btn">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              
+
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Bags</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Footwear</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">wallets</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Accessories</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <!-- logo image -->
+        <div class="col-2 text-center logo-img">
+          <div class="container me-auto">
+            <a class="navbar-brand" href="#">
+              <img src="https://cdn.shopify.com/s/files/1/2186/5207/files/image_68_120x.png?v=1655664726">
+            </a>
+          </div>
+        </div>
+        <!-- logo image end !!-->
+
+        <div class="col-3 nav-thing">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sling Bogo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Collections</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="col-3 nav-thing">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="col my-auto icon-set">
+                  <!-- <div> -->
+                  <!-- icon 1 -->
+                    <svg class="Icon Icon--account me-4" role="presentation" viewBox="0 0 22 24" width="20">
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="Product-Page_Desktop" transform="translate(-1279.000000, -70.000000)" fill="#0C475C" fill-rule="nonzero" stroke="#0C475C" stroke-width="0.25">
+                              <g id="Group-2">
+                                  <g id="Group" transform="translate(1280.000000, 69.000000)">
+                                      <g id="noun-user-1214549" transform="translate(0.000000, 1.625000)">
+                                          <path d="M10.355856,0 C6.79876198,0 3.90517934,2.86848345 3.90517934,6.3948248 C3.90517934,8.91243852 5.38030476,11.0956381 7.51861876,12.1387396 C3.18163382,13.3638125 5.31372453e-05,17.3249928 5.31372453e-05,22.0139215 L5.31372453e-05,22.0141001 C-0.00192812883,22.1510517 0.0515663318,22.283181 0.148649246,22.3806712 C0.245732159,22.4783397 0.3782961,22.5333333 0.516443864,22.5333333 C0.654771455,22.5333333 0.787155569,22.4783397 0.884238483,22.3806712 C0.981321397,22.283181 1.03481268,22.1510517 1.03283459,22.0141001 C1.03283459,17.034913 4.98992586,12.9845526 9.96141945,12.7797719 C10.0920007,12.7876286 10.2233059,12.7920922 10.3558698,12.7920922 C10.4882539,12.7920922 10.6197389,12.7878068 10.7503201,12.7797719 C15.7218137,12.9842189 19.6765995,17.0343645 19.6765995,22.0141001 C19.6746183,22.1510517 19.7281127,22.283181 19.8251956,22.3806712 C19.9222786,22.4783397 20.0546627,22.5333333 20.1929903,22.5333333 C20.331138,22.5333333 20.463702,22.4783397 20.5607849,22.3806712 C20.6578678,22.283181 20.7113591,22.1510517 20.709381,22.0141001 C20.709381,17.3256285 17.5294602,13.3639454 13.1931208,12.1389182 C15.3316193,11.0956338 16.8065602,8.91243422 16.8065602,6.39500334 C16.8065602,2.86870771 13.9128393,0.000178543143 10.3558836,0.000178543143 L10.355856,0 Z M10.355856,1.02381191 C13.3551209,1.02381191 15.7736866,3.4216198 15.7736866,6.39473338 C15.7736866,9.23999617 13.558278,11.5604171 10.7394845,11.7546845 C10.6121447,11.7500421 10.4842609,11.7475423 10.3556623,11.7475423 C10.227239,11.7475423 10.0993597,11.750042 9.97201995,11.7546845 C7.15322643,11.5602388 4.93781785,9.23990475 4.93781785,6.39473338 C4.93781785,3.4216198 7.35656799,1.02381191 10.3556485,1.02381191 L10.355856,1.02381191 Z" id="Shape"></path>
+                                      </g>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                    </svg>
+                  
+                    <!-- icon 1 end -->
+                    <!-- icon 2 -->
+                  
+                    <svg class="Icon Icon--wishlist me-4" role="presentation" viewBox="0 0 26 23" width="25">
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="Product-Page_Desktop" transform="translate(-1317.000000, -70.000000)" fill="#0C475C" fill-rule="nonzero">
+                              <g id="Group-2">
+                                  <g id="Group" transform="translate(1280.000000, 69.000000)">
+                                      <g id="noun-like-1076193" transform="translate(37.276981, 1.625000)">
+                                          <path d="M18.1727133,0.294862717 C16.1183103,0.294862717 14.0282534,1.17951668 12.478409,2.72754595 L12.4424598,2.76431098 C12.4424598,2.76431098 12.4065107,2.76431098 12.4065107,2.72754595 C11.0009545,1.3638717 9.12681533,0 7.28884473,0 C5.41470552,0 3.54082374,0.737090974 2.1352676,2.17454672 C-0.711755867,5.08618441 -0.711755867,9.84097735 2.1352676,12.7527467 L11.8660409,22.1146379 C12.0462919,22.2619574 12.2624927,22.3727679 12.478687,22.3727679 C12.6948814,22.3727679 12.9110886,22.2989798 13.0913332,22.1146379 L22.8221064,12.7527467 C24.2276626,11.3152909 24.9483962,9.39861746 24.9483962,7.48220725 C24.9483962,5.56553378 24.2276626,3.64912357 22.8221064,2.21166783 C21.4522684,0.921775077 19.8305372,0.294994352 18.1728305,0.294994352 L18.1727133,0.294862717 Z M21.7405348,11.720793 L12.4062005,20.7141058 L3.07186611,11.720793 C1.99060472,10.614992 1.37799076,9.10375474 1.37799076,7.48227307 C1.37799076,5.86046231 1.9906369,4.38628036 3.07186611,3.24375315 C4.18903869,2.10122594 5.6308278,1.51143469 7.21632601,1.51143469 C8.33349859,1.51143469 9.7752877,2.32230716 11.3248747,3.8335444 C11.6132261,4.09167433 11.9734642,4.2757595 12.3699031,4.2757595 C12.7663421,4.2757595 13.1268698,4.12844003 13.4149316,3.8335444 C14.712368,2.54338838 16.4062433,1.80629741 18.1360942,1.80629741 C19.1092359,1.80629741 20.5147921,2.06442734 21.7041088,3.28047936 C22.8212814,4.42300657 23.3979841,5.8975176 23.3979841,7.51899927 C23.4341849,9.06702854 22.8215388,10.5782 21.7402774,11.720793 L21.7405348,11.720793 Z" id="Shape"></path>
+                                      </g>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                    </svg>
+                  
+                    <!-- icon 2 end-->
+
+                    <!-- icon 3 -->
+                  
+                    <svg class="Icon Icon--cart" role="presentation" viewBox="0 0 21 28" width="20">
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="Product-Page_Desktop" transform="translate(-1358.000000, -68.000000)" fill="#0C475C" fill-rule="nonzero" stroke="#0C475C" stroke-width="0.25">
+                              <g id="Group-2">
+                                  <g id="Group" transform="translate(1280.000000, 69.000000)">
+                                      <g id="noun-shopping-bag-2788682" transform="translate(78.469340, 0.000000)">
+                                          <path d="M18.556707,8.42739728 L14.7328641,8.42739728 L14.7328641,4.77580631 C14.7328641,2.14217589 12.6598983,0 10.1119767,0 C7.56405513,0 5.49108933,2.14222828 5.49108933,4.77580631 L5.49108933,8.42781643 L1.66704009,8.42781643 L0,26.40625 L20.2240566,26.40625 L18.556707,8.42739728 Z M6.57808078,4.77580631 C6.57808078,2.76173344 8.16293485,1.12379618 10.1117188,1.12379618 C12.0601415,1.12379618 13.6453567,2.76194301 13.6453567,4.77580631 L13.6453567,8.42781643 L6.57828715,8.42781643 L6.57808078,4.77580631 Z M2.65487176,9.55124586 L5.490625,9.55124586 L5.490625,11.798681 C5.490625,12.108748 5.73427845,12.3605005 6.03435289,12.3605005 C6.3346337,12.3605005 6.57808078,12.108968 6.57808078,11.798681 L6.57808078,9.55124586 L13.6456663,9.55124586 L13.6456663,11.798681 C13.6456663,12.108748 13.8893197,12.3605005 14.1893942,12.3605005 C14.489675,12.3605005 14.7331221,12.108968 14.7331221,11.798681 L14.7331221,9.55124586 L17.5688753,9.55124586 L19.0275354,25.2825062 L1.19631486,25.2825062 L2.65487176,9.55124586 Z" id="Shape"></path>
+                                      </g>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <!-- icon 3 end -->
+          <!-- </div>   -->
+        </div>
+        
+      </div>
+
+
+      
+
+     
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body my-auto">
+
+          <p><a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" href="#">Bags</a></p>
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <p><a href="">Classic Sling Bags - At 999</a></p>
+            <p><a href="">Womens</a></p>
+            <p><a href="">Womens</a></p>
+
+          </div>
+          <p><a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"href="#">Footwear</a></p>
+          <p><a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"href="#">Wallets</a></p>
+          <p><a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"href="#">Accessories</a></p>
+          <p><a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"href="#">Profile</a></p>
+          <p><a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"href="#">whishlist</a></p>
+          <p><a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"href="#">Cart</a></p>
+        </div>
+      </div>
+
+    </header>
+
+
+    <section>
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/2186/5207/collections/Banners_c2-38.png?v=1684239000" class="img-fluid">
+      </div>
+    </section>
+
+    <section>
+      <div class="container my-5">
+        <h1 class="text-center">footwear</h1>
+      </div>
+    </section>
+
+    <!-- dropdown -->
+    <section>
+      <div class="container-fluid row no-gutters border-bottom pt-3">
+          <div class="col dropdown me-1">
+            <button type="button" class="btn bg-white border border-secondary-subtle rounded-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+              AVAILABILITY
+            </button>
+            <ul class="dropdown-menu">
+              <li><input type="checkbox" aria-label="Checkbox for following text input"><a class="dropdown-item" href="#">In Stock</a></li>
+              
+            </ul>
+          </div>x
+          <div class="col dropdown me-1">
+            <button type="button" class="btn bg-white rounded-0 border border-secondary-subtle dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+              SIZE
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">36</a></li>
+              <li><a class="dropdown-item" href="#">37</a></li>
+              <li><a class="dropdown-item" href="#">38</a></li>
+              <li><a class="dropdown-item" href="#">39</a></li>
+              <li><a class="dropdown-item" href="#">40</a></li>
+              <li><a class="dropdown-item" href="#">41</a></li>
+              <li><a class="dropdown-item" href="#">42</a></li>
+            </ul>
+          </div>
+          <div class="col dropdown me-1">
+            <button type="button" class="btn bg-white rounded-0 border border-secondary-subtle dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+              PRICE OCCASION
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">0-1000</a></li>
+              <li><a class="dropdown-item" href="#">1000-1500</a></li>
+              <li><a class="dropdown-item" href="#">1500-2000</a></li>
+            </ul>
+          </div>
+          <div class="col dropdown me-1">
+            <button type="button" class="btn bg-white rounded-0 border border-secondary-subtle dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+              OCCASION
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Business(71)</a></li>
+              <li><a class="dropdown-item" href="#">Casual(116)</a></li>
+              <li><a class="dropdown-item" href="#">Party Wear(77)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+ <!-- dropdown end-->
+
+<!-- cards -->
+  <div class="row no-gutters">
+    <div class="col d-flex justify-content-center py-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.shopify.com/s/files/1/2186/5207/products/MysoreGarden_2_1000x.jpg?v=1675332901" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mysore Garden Bellies</h5>
+          <p class="card-text">Rs. 1,299</p>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center py-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.shopify.com/s/files/1/2186/5207/products/MysoreGarden_2_1000x.jpg?v=1675332901" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mysore Garden Bellies</h5>
+          <p class="card-text">Rs. 1,299</p>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center py-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.shopify.com/s/files/1/2186/5207/products/MysoreGarden_2_1000x.jpg?v=1675332901" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mysore Garden Bellies</h5>
+          <p class="card-text">Rs. 1,299</p>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center py-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.shopify.com/s/files/1/2186/5207/products/MysoreGarden_2_1000x.jpg?v=1675332901" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mysore Garden Bellies</h5>
+          <p class="card-text">Rs. 1,299</p>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center py-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.shopify.com/s/files/1/2186/5207/products/MysoreGarden_2_1000x.jpg?v=1675332901" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mysore Garden Bellies</h5>
+          <p class="card-text">Rs. 1,299</p>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center py-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.shopify.com/s/files/1/2186/5207/products/MysoreGarden_2_1000x.jpg?v=1675332901" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mysore Garden Bellies</h5>
+          <p class="card-text">Rs. 1,299</p>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center py-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.shopify.com/s/files/1/2186/5207/products/MysoreGarden_2_1000x.jpg?v=1675332901" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mysore Garden Bellies</h5>
+          <p class="card-text">Rs. 1,299</p>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center py-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.shopify.com/s/files/1/2186/5207/products/MysoreGarden_2_1000x.jpg?v=1675332901" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mysore Garden Bellies</h5>
+          <p class="card-text">Rs. 1,299</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- cards end -->
+
+
+<!-- OwlCarousel cards -->
+<section  class="p-5" style="background-color: rgb(237, 230, 223);">
+  
+    <h1 class="py-5">Explore other Styles</h1>
+    <div class="row">
+      <div class="owl-carousel owl-theme">
+        
+        <div class="item">
+          <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/2186/5207/files/dfgh-11.png?v=1674627239" class="card-img" alt="">
+            <div class="card-img-overlay">
+              <!-- <div class="bg-dark"> -->
+                <!-- <div class="carousel-btn bg-white position-absolute bottom-0 start-50 translate-middle-x mb-3"> -->
+                  <button type="button" class="border carousel-inner-btn btn-outline-primary position-absolute bottom-0 start-50 translate-middle-x mb-3">Bellies</button>
+                <!-- </div> -->
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+    
+        <div class="item">
+          <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/2186/5207/files/dfgh-13.png?v=1674627239" class="card-img" alt="">
+            <div class="card-img-overlay">
+              <button type="button" class="carousel-inner-btn  btn-outline-primary position-absolute bottom-0 start-50 translate-middle-x mb-4">Sliders</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="item">
+          <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/2186/5207/files/dfgh-14.png?v=1674627239" class="card-img" alt="">
+            <div class="card-img-overlay">
+              <button type="button" class="carousel-inner-btn btn-outline-primary position-absolute bottom-0 start-50 translate-middle-x mb-4">Sandals</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/2186/5207/files/dfgh-12.png?v=1674627239" class="card-img" alt="">
+            <div class="card-img-overlay">
+              <button type="button" class="carousel-inner-btn btn-outline-primary position-absolute bottom-0 start-50 translate-middle-x mb-4">Mules</button>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+  </div>
+</section>
+
+
+
+<div class="continer p-5">
+  <div>
+    <h1>WOMEN'S SLIDERS AT ZOUK</h1>
+    <p>Want to buy the most comfortable pair of sliders for women? Dont worry, Zouk has got your back. Our timeless yet fun designs of slipper sliders will make you forget your heels for a long time. Get a pair of sliders and crack the tough footwear game!</p>
+    <p>Every wardrobe is incomplete without a pair of easy-going slipper sliders. Designed for casual comfort but keeping in mind the needs of modern women, womens sliders are perfect to slip into when you feel like ditching your shoes or heels. </p>
+  <p>Realising that the market is filled with boring rubber slide flip-flops, we have crafted one-of-a-kind casual and classy sliders for women. Think gardens, oceans, abstract patterns, and more. Yes, you guessed it right, we love to spoil you for choices! We want you to stand out even when sporting something as simple as footwear sliders. </p>
+  </div>
+  <div>
+    <h1>WHY SHOULD I CHOOSE ZOUK FOR WOMEN'S SANDALS SLIDERS?</h1>
+    <p>Because we believe in twisting the traditional for the modern needs. We have made sliders of impeccable quality that combine utility and trendy designs. We hear our patrons and deliver products that they wish for.</p>
+    <p>All our materials are the best in the market. We are Proudly Indian and use 100% PeTA approved vegan leather in all our products, including sliders for women. We know that every small action matters and are doing our best to preserve nature.</p>
+    <p>Most importantly, we have curated all your needs related to accessories in one place for your convenience. Explore our whole collection and say goodbye to all your wardrobe woes.</p>
+  </div>
+
+</div>
+
+
+<!-- footer!!! -->
+
+<footer class="text-white p-5" style="background-color: rgb(204, 102, 77);">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <h3>About Zouk</h1>
+          <p>Zouk is a Modern Indian Lifestyle Brand for Bags, Wallets & Footwear.</p>
+          <div class="card-area row">
+            <div class="col border d-flex justify-content-center align-items-center mx-1" style="width: 40px; height: 40px; border-radius: 50%; background-color:rgb(244, 156, 78);">
+              <svg class="Icon Icon--facebook" viewBox="0 0 9 17" width="8">
+                <path d="M5.842 17V9.246h2.653l.398-3.023h-3.05v-1.93c0-.874.246-1.47 1.526-1.47H9V.118C8.718.082 7.75 0 6.623 0 4.27 0 2.66 1.408 2.66 3.994v2.23H0v3.022h2.66V17h3.182z"></path>
+              </svg>
+            </div>
+            <div class="col border d-flex justify-content-center align-items-center mx-1" style="width: 40px; height: 40px; border-radius: 50%; background-color:rgb(244, 156, 78);">
+              <svg class="Icon Icon--twitter" role="presentation" viewBox="0 0 32 26" width="8">
+                <path d="M32 3.077c-1.1748.525-2.4433.8748-3.768 1.031 1.356-.8123 2.3932-2.0995 2.887-3.6305-1.2686.7498-2.6746 1.2997-4.168 1.5934C25.751.796 24.045.0025 22.158.0025c-3.6242 0-6.561 2.937-6.561 6.5612 0 .5124.0562 1.0123.1686 1.4935C10.3104 7.7822 5.474 5.1702 2.237 1.196c-.5624.9687-.8873 2.0997-.8873 3.2994 0 2.2746 1.156 4.2867 2.9182 5.4615-1.075-.0314-2.0872-.3313-2.9745-.8187v.0812c0 3.1806 2.262 5.8363 5.2677 6.4362-.55.15-1.131.2312-1.731.2312-.4248 0-.831-.0438-1.2372-.1188.8374 2.6057 3.262 4.5054 6.13 4.5616-2.2495 1.7622-5.074 2.812-8.1546 2.812-.531 0-1.0498-.0313-1.5684-.0938 2.912 1.8684 6.3613 2.9494 10.0668 2.9494 12.0726 0 18.6776-10.0043 18.6776-18.6776 0-.2874-.0063-.5686-.0188-.8498C30.0066 5.5514 31.119 4.3954 32 3.077z"></path>
+              </svg>
+            </div>
+              <div class="col border d-flex justify-content-center align-items-center mx-1" style="width: 40px; height: 40px; border-radius: 50%; background-color:rgb(244, 156, 78);">
+                <svg class="Icon Icon--instagram" role="presentation" viewBox="0 0 32 32" width="8">
+                  <path d="M15.994 2.886c4.273 0 4.775.019 6.464.095 1.562.07 2.406.33 2.971.552.749.292 1.283.635 1.841 1.194s.908 1.092 1.194 1.841c.216.565.483 1.41.552 2.971.076 1.689.095 2.19.095 6.464s-.019 4.775-.095 6.464c-.07 1.562-.33 2.406-.552 2.971-.292.749-.635 1.283-1.194 1.841s-1.092.908-1.841 1.194c-.565.216-1.41.483-2.971.552-1.689.076-2.19.095-6.464.095s-4.775-.019-6.464-.095c-1.562-.07-2.406-.33-2.971-.552-.749-.292-1.283-.635-1.841-1.194s-.908-1.092-1.194-1.841c-.216-.565-.483-1.41-.552-2.971-.076-1.689-.095-2.19-.095-6.464s.019-4.775.095-6.464c.07-1.562.33-2.406.552-2.971.292-.749.635-1.283 1.194-1.841s1.092-.908 1.841-1.194c.565-.216 1.41-.483 2.971-.552 1.689-.083 2.19-.095 6.464-.095zm0-2.883c-4.343 0-4.889.019-6.597.095-1.702.076-2.864.349-3.879.743-1.054.406-1.943.959-2.832 1.848S1.251 4.473.838 5.521C.444 6.537.171 7.699.095 9.407.019 11.109 0 11.655 0 15.997s.019 4.889.095 6.597c.076 1.702.349 2.864.743 3.886.406 1.054.959 1.943 1.848 2.832s1.784 1.435 2.832 1.848c1.016.394 2.178.667 3.886.743s2.248.095 6.597.095 4.889-.019 6.597-.095c1.702-.076 2.864-.349 3.886-.743 1.054-.406 1.943-.959 2.832-1.848s1.435-1.784 1.848-2.832c.394-1.016.667-2.178.743-3.886s.095-2.248.095-6.597-.019-4.889-.095-6.597c-.076-1.702-.349-2.864-.743-3.886-.406-1.054-.959-1.943-1.848-2.832S27.532 1.247 26.484.834C25.468.44 24.306.167 22.598.091c-1.714-.07-2.26-.089-6.603-.089zm0 7.778c-4.533 0-8.216 3.676-8.216 8.216s3.683 8.216 8.216 8.216 8.216-3.683 8.216-8.216-3.683-8.216-8.216-8.216zm0 13.549c-2.946 0-5.333-2.387-5.333-5.333s2.387-5.333 5.333-5.333 5.333 2.387 5.333 5.333-2.387 5.333-5.333 5.333zM26.451 7.457c0 1.059-.858 1.917-1.917 1.917s-1.917-.858-1.917-1.917c0-1.059.858-1.917 1.917-1.917s1.917.858 1.917 1.917z"></path>
+                </svg>
+              </div>
+              <div class="col border d-flex justify-content-center align-items-center mx-1" style="width: 40px; height: 40px; border-radius: 50%; background-color:rgb(244, 156, 78);">
+                <svg class="Icon Icon--pinterest" role="presentation" viewBox="0 0 32 32" width="8">
+                  <path d="M16 0q3.25 0 6.208 1.271t5.104 3.417 3.417 5.104T32 16q0 4.333-2.146 8.021t-5.833 5.833T16 32q-2.375 0-4.542-.625 1.208-1.958 1.625-3.458l1.125-4.375q.417.792 1.542 1.396t2.375.604q2.5 0 4.479-1.438t3.063-3.937 1.083-5.625q0-3.708-2.854-6.437t-7.271-2.729q-2.708 0-4.958.917T8.042 8.689t-2.104 3.208-.729 3.479q0 2.167.812 3.792t2.438 2.292q.292.125.5.021t.292-.396q.292-1.042.333-1.292.167-.458-.208-.875-1.083-1.208-1.083-3.125 0-3.167 2.188-5.437t5.729-2.271q3.125 0 4.875 1.708t1.75 4.458q0 2.292-.625 4.229t-1.792 3.104-2.667 1.167q-1.25 0-2.042-.917t-.5-2.167q.167-.583.438-1.5t.458-1.563.354-1.396.167-1.25q0-1.042-.542-1.708t-1.583-.667q-1.292 0-2.167 1.188t-.875 2.979q0 .667.104 1.292t.229.917l.125.292q-1.708 7.417-2.083 8.708-.333 1.583-.25 3.708-4.292-1.917-6.938-5.875T0 16Q0 9.375 4.687 4.688T15.999.001z"></path>
+                </svg>
+              </div>
+              <div class="col border d-flex justify-content-center align-items-center mx-1" style="width: 40px; height: 40px; border-radius: 50%; background-color:rgb(244, 156, 78);">
+                <svg class="Icon Icon--youtube" role="presentation" viewBox="0 0 33 32" width="8">
+                  <path d="M0 25.693q0 1.997 1.318 3.395t3.209 1.398h24.259q1.891 0 3.209-1.398t1.318-3.395V6.387q0-1.997-1.331-3.435t-3.195-1.438H4.528q-1.864 0-3.195 1.438T.002 6.387v19.306zm12.116-3.488V9.876q0-.186.107-.293.08-.027.133-.027l.133.027 11.61 6.178q.107.107.107.266 0 .107-.107.213l-11.61 6.178q-.053.053-.107.053-.107 0-.16-.053-.107-.107-.107-.213z"></path>
+                </svg>
+              </div>
+              <div class="col border d-flex justify-content-center align-items-center mx-1" style="width: 40px; height: 40px; border-radius: 50%; background-color:rgb(244, 156, 78);">
+                <svg class="Icon Icon--linkedin" role="presentation" viewBox="0 0 24 24" width="8">
+                  <path d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zM8 19H5V8h3v11zM6.5 6.73a1.76 1.76 0 1 1 0-3.53 1.76 1.76 0 0 1 0 3.53zM20 19h-3v-5.6c0-3.37-4-3.12-4 0V19h-3V8h3v1.76a3.8 3.8 0 0 1 7 2.48V19z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <h3>About Zouk</h1>
+          <ul class="footer-list">
+            <li><a href="#">Customer Reviews</a></li>
+            <li><a href="#">Our Journal</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Zouk Insider</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <h3>Useful Links</h1>
+          <ul class="footer-list">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Order Delivery</a></li>
+            <li><a href="#">Refund & Exchange Policy</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Discounts</a></li>
+            <li><a href="#">Order Exchange</a></li>
+            <li><a href="#">Track Your Order</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6">
+        <div class="single-box">
+          <h3>Newsletter</h1>
+          <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+          <div class="input-group mb-3">
+            <input type="text" class="footer-input form-control rounded-0 p-2" placeholder="Enter your email address" aria-label="Recipient's username" aria-describedby="basic-addon2" style="background-color: rgb(204, 102, 77); color: white;">
+          </div>
+          <button type="button" class="btn btn-secondary">Subscribe</button>
+        </div>
+      </div>
+      <div>
+        <p>Zouk is a 100% Vegan & Proudly Indian brand. We make laptop bags, handbags, women's office bags, female wallets, mini wallets, sling bags, bucket bags, backpacks, travel pouches for women & men. We use Ikat fabric and Jute Khadi fabric to make vegan leather bags and other vegan products. All bags are handcrafted by expert artisans. We only sell online and can ship to all over India. Our products are a great choice for office goers, homemakers and college students. Many people also choose our products for gifts in Weddings, Anniversary, Diwali, Holi, Christmas, New Year, Karwa Chauth, Valentine's Day, Women's Day. The company was founded by IIT & IIM alumni. All products are PeTA Approved Vegan.</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- JQUERY  CDN LINKS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    <!-- Javascript cdn links for owl carousel librries-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+
+
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:false,
+    dots:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:2
+      },
+      1000:{
+        items:3
+      }
+    }
+  });
+});
+
+
+
+//     $('.owl-carousel').owlCarousel({
+    
+//     loop:true,
+//     margin:10,
+//     nav:true,
+//     navText: ["<i class='bi bi-arrow-left-circle-fill'></i>", "<i class='bi bi-arrow-left-circle-fill'></i>"],
+//     dots:false,
+
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:2
+//         },
+//         1000:{
+//             items:3
+//         }
+//     }
+// })
+  </script>
+</body>
+</html>
